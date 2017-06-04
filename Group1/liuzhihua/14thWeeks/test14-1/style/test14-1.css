@@ -1,0 +1,270 @@
+#thebody{
+    margin: 0;
+    padding-left: 50%;
+    background: url("../imgs/body.png") repeat-x;
+    width: 100%;
+    height: 2010px;
+    box-sizing: border-box;
+}
+
+/*设置居中*/
+.do_center{
+    width: 1180px;
+    margin: 0;
+    position: relative;
+    left: -590px;
+    display: block;
+}
+
+/*顶部*/
+logo{
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    font-size: 15px;
+}
+.logo_left{
+    float: left;
+    padding-left: 20px;
+}
+.logo_right{
+    float: right;
+    padding-right: 20px;
+}
+logo a{
+    text-decoration: none;
+    color: #fff;
+}
+logo a:hover{
+    color: red;
+}
+
+/*头部*/
+header{
+    height: 72px;
+}
+header img{
+    float: left;
+}
+.CampusSay{
+    height: 100%;
+    float: left;
+    width: 100px;
+    color: #00caab;
+    box-sizing: border-box;
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 19px;
+}
+.CampusSay span{
+    font-size: 32px;
+    line-height: 32px;
+}
+.header_left{
+    width: 115px;
+    height: 45px;
+    border-left: #dddddd solid 2px;
+    float: left;
+    position: relative;
+    top: 12px;
+    left: 20px;
+    text-align: left;
+    color: #5c5c5c;
+    font-size: 15px;
+    line-height: 22px;
+    padding-left: 20px;
+}
+.header_left input{
+    border: #dddddd solid 1px;
+    background: #fff;
+    color: #828282;
+    cursor: pointer;
+}
+.header_right{
+    float: right;
+    line-height: 72px;
+}
+.header_right a{
+    margin-left: 55px;
+    text-decoration: none;
+    color: #5c5c5c;
+    font-size: 16px;
+}
+.header_right a:hover{
+    color: #00caab;
+}
+#green{
+    color: #00caab;
+}
+
+/*大图轮播部分*/
+#pic_left,#pic_right{
+    display: none;
+}
+#big_pic{
+    display: block;
+    width: 1180px;
+    height: 340px;
+    overflow: hidden;
+}
+#carousel{
+    height: 340px;
+    width: 300%;
+    margin: 0;
+    margin-left: -40px;
+    position: relative;
+    left: 0;
+    z-index: -1;
+}
+#carousel li{
+    float: left;
+    list-style: none;
+}
+#big_pic label{
+    background: #34495e;
+    width: 24px;
+    height: 48px;
+    cursor: pointer;
+    display: block;
+    opacity: 0.4;
+    line-height: 48px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+#big_pic label:hover{
+    opacity: 0.8;
+}
+#the_left{
+    position: absolute;
+    top: 160px;
+    left: 0;
+}
+#the_right{
+    position: absolute;
+    top: 160px;
+    right: 0;
+}
+
+#pic_left:checked ~ #big_pic #carousel {
+    animation:slide1 2s;
+}
+#pic_right:checked ~ #big_pic #carousel {
+    animation:slide2 2s;
+}
+#pic_left:active ~ #big_pic #carousel {
+    animation:none;
+    left: -100%;
+}
+#pic_right:active ~ #big_pic #carousel {
+    animation:none;
+    left: 0;
+}
+@keyframes slide2{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: -100%;
+    }
+}
+@keyframes slide1{
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+/*图表部分*/
+chart{
+    height: 1407px;
+    position: relative;
+    top: -10px;
+}
+chart p{
+    border-left: #00caab solid 3px;
+    color: #34495e;
+    padding-left: 15px;
+    display: block;
+    width: 1160px;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+chart p span{
+    float: right;
+}
+chart p span a{
+    color: #00caab;
+    text-decoration: none;
+    font-size: 14px;
+}
+chart p span a:hover{
+    color: red;
+}
+chart ul{
+    margin-left: -60px;
+    position: relative;
+    top: -5px;
+}
+chart li{
+    float: left;
+    list-style: none;
+    width: 220px;
+    height: 210px;
+    margin-left: 20px;
+}
+
+/*底部*/
+footer{
+    height: 140px;
+}
+footer img{
+    float: left;
+}
+.CampusSay2{
+    height: 100%;
+    float: left;
+    width: 100px;
+    color: #00caab;
+    box-sizing: border-box;
+    padding-top: 45px;
+    font-size: 18px;
+    line-height: 19px;
+}
+.CampusSay2 span{
+    font-size: 30px;
+    line-height: 30px;
+}
+footer a img{
+    position: relative;
+    top: 48px;
+    left: 10px;
+    margin-left: 15px;
+}
+#footer_right{
+    color: #fff;
+    float: right;
+    text-align: right;
+    margin-top: 40px;
+    line-height: 30px;
+}
+#footer_right a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+#footer_right a:hover{
+    color: red;
+}
+
+/*二维码*/
+#QR_code{
+    position: absolute;
+    top: -80px;
+    left: 300px;
+}
