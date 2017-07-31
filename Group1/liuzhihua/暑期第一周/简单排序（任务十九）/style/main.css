@@ -1,0 +1,50 @@
+
+#overline{
+    height: 60px;
+    background: #efe;
+    line-height: 60px;
+    padding-left: 30px;
+    width: 98%;
+}
+#overline input{
+    background: #ffe;
+    outline: none;
+    height: 30px;
+}
+#overline button{
+    height: 30px;
+    background: #fed;
+    width: 60px;
+    text-align: center;
+}
+#sort{
+    height: 30px;
+    background: #ccc;
+    width: 60px;
+    text-align: center;
+}
+
+
+#remove1{
+    margin-left: 40px;
+}
+
+#outline{
+    margin-top: 20px;
+    background: #eef;
+    width: 98%;
+    height: 240px;
+    position: relative;
+}
+
+#outline div{
+    position: relative;
+    float: left;
+    width: 20px;
+    background: red;
+    color: #fff;
+    text-align: center;
+    line-height: 38px;
+    margin-left: 2px;
+    font-size: 12px;
+}

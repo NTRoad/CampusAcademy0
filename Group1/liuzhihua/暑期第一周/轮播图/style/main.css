@@ -1,0 +1,70 @@
+
+#div1{
+    height: 350px;
+    width: 600px;
+    border: 1px solid #000;
+    position: relative;
+    top: 40px;
+    margin-left: 50%;
+    left: -300px;
+    padding: 0;
+    overflow: hidden;
+}
+#ul1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 0;
+    margin-left: -40px;
+    z-index: -1;
+    width: 4800px;
+}
+#ul1 li{
+    list-style: none;
+    float: left;
+    width: 600px;
+    height: 350px;
+    text-align: center;
+}
+#ul1 li img{
+    width: 600px;
+    height: 350px;
+}
+button{
+    z-index: 1;
+    position: relative;
+    left: 480px;
+    top: 320px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border: none;
+    background: #aa5821;
+    opacity: 0.6;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
+
+input{
+    position: absolute;
+    opacity: 0.6;
+    width: 25px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    background: #78ac96;
+    border: none;
+    cursor: pointer;
+    top: 150px;
+}
+input:hover{
+    opacity: 0.8;
+}
+#right{
+    right: 0;
+}
+#left{
+    left: 0;
+}

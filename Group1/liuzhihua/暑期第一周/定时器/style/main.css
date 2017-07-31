@@ -1,0 +1,18 @@
+
+#outline{
+    width: 250px;
+    position: relative;
+    margin-left: 50%;
+    left: -75px;
+    border: 1px #ccc solid;
+    text-align: center;
+    height: 150px;
+    background: #745cd2;
+    color: #aadedf
+}
+#show{
+    margin-top: 20px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+}

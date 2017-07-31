@@ -1,0 +1,79 @@
+
+#outline1{
+    top: -10px;
+    height: 50px;
+    width: 900px;
+    position: relative;
+    margin-left: 50%;
+    left: -450px;
+    text-align: center;
+    background: #eef;
+    line-height: 50px;
+}
+#outline1 select{
+    height: 30px;
+    width: 100px;
+    background: #eef;
+}
+#btn1{
+    width: 100px;
+    height: 30px;
+    outline: none;
+    background: #efe;
+}
+
+#outline2{
+    top: -10px;
+    width: 900px;
+    position: relative;
+    margin-left: 50%;
+    left: -450px;
+    background: #fee;
+}
+#outline2 div{
+    float: left;
+}
+#games ul{
+    margin-left: -40px;
+    margin-top: 0;
+    width: 600px;
+    height: 600px;
+}
+#games ul li{
+    float: left;
+    list-style: none;
+}
+#games ul li img{
+    box-sizing: border-box;
+    border: 1px solid #fff;;
+    cursor: pointer;
+}
+#games ul li img:hover{
+    opacity: 0.8;
+}
+#games{
+    width: 600px;
+    padding: 20px;
+    background: lightblue;
+}
+#orip img{
+    width: 200px;
+    height: 200px;
+}
+#orip{
+    background: #ccc;
+    height: 655px;
+    width: 260px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+#orip p{
+    margin-top: 40px;
+}
+#orip button{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    outline: none;
+    background: #efe;
+}

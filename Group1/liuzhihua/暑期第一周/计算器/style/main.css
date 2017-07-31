@@ -1,0 +1,19 @@
+table{
+	width: 350px;
+	background: #fff;
+	text-align: right;
+}
+
+#outputId{
+	text-align: right;
+	height: 50px;
+	font-size: 40px;
+	background: #fff;
+    overflow: hidden;
+}
+input{
+	width: 100px;
+	background: #ccc;
+	height: 40px;
+	font-size: 20px;
+}
