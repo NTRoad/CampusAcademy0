@@ -1,0 +1,285 @@
+body {
+    overflow: hidden;
+}
+
+#outline {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#outline div {
+    width: 100%;
+    position: relative;
+}
+
+#div1 {
+    background: #d3a3cd;
+}
+
+#div1 li,
+#div1 button {
+    background: #0d2864;
+    color: #fff;
+    transition: transform 1s, background 1s, color 1s;
+}
+
+#div1 li:hover,
+#div1 button:hover {
+    background: #49fab8;
+    transform: rotate(360deg);
+    color: #000;
+}
+
+#div2 {
+    background: #0d2864;
+}
+
+#div2 li,
+#div2 button {
+    background: #49fab8;
+    color: #fff;
+    transition: transform 1s, background 1s, color 1s;
+}
+
+#div2 li:hover,
+#div2 button:hover {
+    transform: matrix(1, 0.5, 0.2, 0.3, 0.2, 0.1);
+    background: #f07c05;
+    color: #000;
+}
+
+#div3 {
+    background: #49fab8;
+}
+
+#div3 li,
+#div3 button {
+    color: #fff;
+    background: #f07c05;
+    transition: transform 1s, background 1s, color 1s;
+}
+
+#div3 li:hover,
+#div3 button:hover {
+    transform: rotate3d(1, 1, 1, 360deg);
+    background: #19f448;
+    color: #000;
+}
+
+#div4 {
+    background: #f07c05;
+}
+
+#div4 li,
+#div4 button {
+    background: #19f448;
+    transition: transform 1s, background 1s, color 1s, border-radius 1s;
+}
+
+#div4 li:hover,
+#div4 button:hover {
+    transform: scale3d(0.5, 1.3, 1);
+    background: #cd5f5f;
+    color: #000;
+    border-radius: 50%;
+}
+
+#div5 {
+    color: #000;
+    background: #19f448;
+}
+
+#div5 li,
+#div5 button {
+    background: #cd5f5f;
+    transition: transform 1s, background 1s, color 1s, box-shadow 1s, border-radius 1s;
+}
+
+#div5 li:hover,
+#div5 button:hover {
+    border-radius: 50%;
+    box-shadow: 10px -10px 5px #888;
+    text-shadow: 5px -5px 3px #000;
+    background: #9ef7f6;
+    color: #fff;
+}
+
+#div6 {
+    background: #cd5f5f;
+}
+
+#div6 li,
+#div6 button {
+    color: #fff;
+    background: #9ef7f6;
+    transition: background 1s, color 1s;
+}
+
+@keyframes kf6 {
+    0% {
+        margin-top: 0;
+    }
+    10% {
+        margin-top: -20px;
+    }
+    20% {
+        margin-top: 20px;
+    }
+    30% {
+        margin-top: -20px;
+    }
+    40% {
+        margin-top: 20px;
+    }
+    50% {
+        margin-top: -20px;
+    }
+    60% {
+        margin-top: 20px;
+    }
+    70% {
+        margin-top: -20px;
+    }
+    80% {
+        margin-top: 20px;
+    }
+    90% {
+        margin-top: -20px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+#div6 li:hover,
+#div6 button:hover {
+    animation: kf6 1s;
+    background: #b0f605;
+    color: #000;
+}
+
+#div7 {
+    background: #9ef7f6;
+}
+
+#div7 li,
+#div7 button {
+    color: #000;
+    background: #b0f605;
+    transition: color 1s, left 1s, top 1s, ;
+}
+
+@keyframes kf7 {
+    0% {
+        background: #d3a3cd;
+    }
+    10% {
+        background: #b0f605;
+    }
+    20% {
+        background: #d3a3cd;
+    }
+    30% {
+        background: #b0f605;
+    }
+    40% {
+        background: #d3a3cd;
+    }
+    50% {
+        background: #b0f605;
+    }
+    60% {
+        background: #d3a3cd;
+    }
+    70% {
+        background: #b0f605;
+    }
+    80% {
+        background: #d3a3cd;
+    }
+    90% {
+        background: #b0f605;
+    }
+    100% {
+        background: #d3a3cd;
+    }
+}
+
+#div7 li:hover,
+#div7 button:hover {
+    box-shadow: -10px 10px 10px #000;
+    margin-top: -10px;
+    color: #fff;
+    animation: kf7 1s;
+    background: #d3a3cd;
+}
+
+#div8 {
+    background: #b0f605;
+}
+
+#div8 li,
+#div8 button {
+    color: #000;
+    background: #d3a3cd;
+    transition: transform 1s, color 1s;
+}
+
+#div8 li:hover,
+#div8 button:hover {
+    background: #0d2864;
+    background: radial-gradient(circle at center, #d3a3cd, #9ef7f6, #0d2864);
+    width: 200px;
+    height: 200px;
+    margin-top: -60px;
+    line-height: 200px;
+    border-radius: 50%;
+    transform: rotateY(360deg);
+    color: #fff;
+}
+
+#outline div button {
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    cursor: pointer;
+    outline: none;
+}
+
+#outline div button:first-of-type {
+    top: 20%;
+}
+
+#outline div button:last-of-type {
+    top: 70%;
+}
+
+#outline div ul {
+    position: absolute;
+    left: 50%;
+    margin-left: -540px;
+    top: 40%;
+}
+
+#outline div ul li {
+    float: left;
+    list-style: none;
+    display: block;
+    height: 80px;
+    width: 200px;
+    line-height: 80px;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-family: "隶书";
+    font-style: italic;
+    font-weight: bolder;
+    position: relative;
+}

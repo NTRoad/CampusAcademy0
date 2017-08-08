@@ -1,0 +1,80 @@
+#theBack {
+    z-index: 500;
+    background: #ddd;
+    opacity: 0.7;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#log {
+    margin-left: 50%;
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: -70px;
+    font-size: 20px;
+    background: #efe;
+    margin-top: 20px;
+}
+
+body {
+    overflow: hidden;
+    background: #efe;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+#logIn {
+    position: fixed;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    line-height: 35px;
+    border-radius: 5px 5px 0 0;
+    z-index: 1000;
+    display: none;
+    background: #54ac58;
+    position: absolute;
+    top: 10px;
+}
+
+#thehead {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    background: #000;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+#thehead:hover {
+    opacity: 0.9;
+}
+
+#theBody {
+    padding-left: 20px;
+    position: relative;
+    padding-top: 20px;
+}
+
+#theBody input {
+    position: absolute;
+    right: 40px;
+    margin-top: 3px;
+    height: 25px;
+    line-height: 25px;
+    background: #eef;
+}
+
+#theBody button {
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}

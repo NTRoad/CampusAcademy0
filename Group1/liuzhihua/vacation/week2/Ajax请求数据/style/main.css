@@ -1,0 +1,88 @@
+#outline{
+    width: 900px;
+    height: 600px;
+    border: 2px solid #ccc;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    margin-left: 50%;
+    left: -450px;
+    background: #f5e69b;
+    top: 20px;
+    border-radius: 20px;
+}
+
+#outline ul li{
+    float: left;
+    list-style: none;
+    height: 600px;
+    width: 450px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#outline ul{
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 0;
+    left: 0;
+}
+#outline ul li img{
+    width: 400px;
+    margin-top: 0;
+    height: 230px;
+    cursor: pointer;
+}
+#outline ul li img:hover{
+    opacity: 0.8;
+}
+#outline ul li div{
+    height: 370px;
+    background: #2d70bf;
+}
+#outline ul li p{
+    line-height: 25px;
+    font-size: 25px;
+    color: #fff;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 15px;
+    font-weight: bolder;
+    font-family: "隶书";
+}
+#outline ul li p span{
+    margin-left: 18px;
+    color: #3e2121;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#outline button{
+    position: absolute;
+    z-index: 100;
+    width: 30px;
+    height: 40px;
+    line-height: 40px;
+    color: #000;
+    top: 280px;
+    background: #9d5151;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    color: #fff;
+    outline: none;
+    border-radius: 5px;
+}
+#outline button:hover{
+    background: #858;
+}
+#left{
+    left: 0;
+}
+#right{
+    right: 0;
+}

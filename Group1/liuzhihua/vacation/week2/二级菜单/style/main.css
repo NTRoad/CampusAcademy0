@@ -1,0 +1,124 @@
+#tab{
+    margin:0;
+    width: 1320px;
+    height: 60px;
+}
+#tab div{
+    list-style: none;
+    float: left;
+    padding-left: 33px;
+    padding-right: 33px;
+    border-left: #999 solid 1px;
+    background: #ade0ff;
+    height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+}
+#tab div:first-of-type{
+    border:none;
+}
+
+#nextTab ul {
+    float: left;
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    background: #eef;
+    top: -16px;
+    border: 1px #fff solid;
+    box-sizing: border-box;
+    padding-left: 0;
+}
+#nextTab ul li{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 33px;
+}
+#nextTab ul li span{
+    position: absolute;
+    right: 0;
+}
+#next1{
+    width: 210px;
+    left: 0;
+    display: none;
+}
+#next2{
+    width: 280px;
+    left: 200px;
+    display: none;
+}
+#next3{
+    width: 210px;
+    left: 480px;
+    display: none;
+}
+#next4{
+    width: 260px;
+    left: 640px;
+    display: none;
+}
+#next5{
+    width: 210px;
+    left: 840px;
+    display: none;
+}
+#next6{
+    width: 210px;
+    left: 1000px;
+    display: none;
+}
+#next7{
+    width: 210px;
+    left: 1110px;
+    display: none;
+}
+#nextTab ul li div{
+    position: relative;
+    background: #999;
+    top: -40px;
+}
+#nextTab ul li div p{
+    padding-left: 20px;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#nextTab ul li div p:hover{
+    background: #ccc
+}
+#next1 div{
+    left: 175px;
+     width: 250px;
+     display: -none;
+}
+#next2 div{
+    left: 245px;
+    display: -none;
+}
+#next3 div{
+    left: 175px;
+    display: -none;
+    width: 200px;
+}
+#next4 div{
+    left: 225px;
+    display: -none;
+    width: 200px;
+}
+#next5 div{
+    left: 175px;
+    display: -none;
+    width: 200px;
+}
+#next6 div{
+    left: -233px;
+    display: -none;
+    width: 200px;
+}
+#next7 div{
+    left: -182px;
+    display: -none;
+    width: 150px;
+}
